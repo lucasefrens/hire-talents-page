@@ -12,7 +12,7 @@
 
 .button-icon.-biwhite {
     color: white;
-    background-color: transparent;
+    background-color: var(--primary-color);
 }
 
 .button-icon.-bileft {
