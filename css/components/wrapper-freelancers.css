@@ -1,0 +1,10 @@
+.wrapper-freelancers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-items: end;
+    gap: 32px;
+    margin-top: 60px;
+    margin-bottom: 130px;
+    width: 100%;
+    padding: 10px;
+}

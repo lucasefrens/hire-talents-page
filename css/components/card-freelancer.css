@@ -1,0 +1,60 @@
+@import "../variables.css";
+
+.card-freelancer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    padding: 32px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border: 1px solid #FAE5D1;
+    margin: 0 auto;
+}
+
+.card-freelancer.-cfsmall {
+    height: 460px;
+}
+
+.card-freelancer.-bdgreen {
+    border: 1px solid #DFEFD7;
+}
+
+.card-freelancer.-bdlilac {
+    border: 1px solid #E7E0EB;
+}
+
+.card-freelancer.-bdyellow {
+    border: 1px solid #FFEAAD;
+}
+
+.card-freelancer .value {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.card-freelancer .text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 22px;
+}
+
+.card-freelancer .note {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--dark-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-freelancer .note i {
+    color: var(--review-color);
+}
+
+.card-freelancer .buttons {
+    display: inline-flex;
+    gap: 16px;
+    margin-top: 24px;
+}

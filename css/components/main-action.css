@@ -1,0 +1,13 @@
+@import "../variables.css";
+
+.main-action {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.main-action.-login {
+    margin-right: 32px;
+}

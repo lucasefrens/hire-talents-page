@@ -1,0 +1,14 @@
+.main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 40px;
+    border: 1px solid var(--stroke-color);
+    border-radius: 16px;
+}
+
+.main-card.-ccwhite {
+    background-color: white;
+}

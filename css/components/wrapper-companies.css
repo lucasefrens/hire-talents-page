@@ -1,0 +1,11 @@
+.wrapper-companies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.wrapper-companies .logo {
+    margin: 0 auto;
+}

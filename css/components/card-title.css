@@ -1,0 +1,7 @@
+@import "../variables.css";
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+}

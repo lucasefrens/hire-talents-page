@@ -1,0 +1,30 @@
+.button-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    margin-left: 24px;
+    color: var(--primary-color);
+    background-color: #FFF;
+    border-radius: 28px;
+}
+
+.button-icon.-biwhite {
+    color: white;
+    background-color: transparent;
+}
+
+.button-icon.-bileft {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.button-icon.-biright {
+    margin-left: 6px;
+    margin-right: 0px;
+}
+
+.button-icon.-blue {
+    color: blue;
+}

@@ -1,0 +1,30 @@
+@import "../variables.css";
+
+.main-button {
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 16px 32px;
+    border-radius: 32px;
+    border: 1px solid var(--primary-color);
+}
+
+.main-button.-transparent {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--text-color);
+}
+
+.main-button.-small {
+    padding: 8px 16px;
+}
+
+.main-button.-bw500 {
+    font-weight: 500;
+}
+
+.main-button.-bw700 {
+    font-weight: 700;
+}

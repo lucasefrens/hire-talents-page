@@ -1,0 +1,29 @@
+.card-slider .row {
+    display: flex;
+    position: relative;
+    width: 100%;
+    gap: 1rem;
+}
+
+.card-slider .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #FFF;
+    text-decoration: none;
+}
+
+.card-slider .rating {
+    color: var(--review-color);
+}
+
+.card-slider .info {
+    display: flex;
+    justify-content: space-between;
+}

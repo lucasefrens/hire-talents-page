@@ -1,0 +1,9 @@
+.main-subtitle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-subtitle.-left {
+    text-align: left;
+}

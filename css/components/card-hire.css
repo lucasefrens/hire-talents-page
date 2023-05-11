@@ -1,0 +1,39 @@
+.card-hire {
+    background-color: #FFF;
+    
+}
+
+.card-hire .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.card-hire .center {
+    align-items: center;
+}
+
+.card-hire .value {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    width: 5rem;
+}
+
+.card-hire .note {
+    display: inline-flex;
+    color: var(--dark-color);
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+}
+
+.card-hire .note i {
+    color: var(--review-color);
+}

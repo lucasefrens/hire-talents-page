@@ -1,0 +1,28 @@
+@import "../variables.css";
+
+.main-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px 100px;
+    gap: 60px;
+    background-color: #F9F8F5;
+}
+
+.main-header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-header .actions {
+    display: flex;
+    gap: 64px;
+}
+
+.main-header .right {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}

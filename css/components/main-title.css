@@ -1,0 +1,16 @@
+.main-title {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 6.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.main-title.-second {
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+.main-title.-left {
+    text-align: left;
+}

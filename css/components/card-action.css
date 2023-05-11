@@ -1,0 +1,11 @@
+.card-action {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.card-action.-blue {
+    color: blue;
+}
