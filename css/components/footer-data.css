@@ -1,0 +1,18 @@
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 6.25rem 2.5rem 6.25rem;
+}
+
+.footer-data > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+} 
+
+.footer-data > div > .action {
+    text-decoration: none;
+    color: var(--text-color);
+}
