@@ -4,9 +4,16 @@
     align-items: center;
 }
 
+.main-slider .items {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .main-slider .elements {
     width: 100%;
     display: flex;
     gap: 24px;
     margin-bottom: 60px;
+    transform: translateX(0rem);
+    transition: transform .4s;
 }
