@@ -23,6 +23,12 @@
     border: #FFF;
 }
 
+.main-button.-wttransparent {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
 .main-button.-small {
     padding: 0.5rem 1rem;
 }

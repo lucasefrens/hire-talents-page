@@ -7,16 +7,16 @@
     background-color: var(--bg-color);
 }
 
+.main-section.-bgblack {
+    background: #000 url(../../assests/img/background-black.png) no-repeat left bottom;
+    background-size: contain;
+}
+
 .main-section.-secsmall {
     padding: 3.75rem 6.25rem;
 }
 
 .main-section .main-title, 
 .main-section .main-subtitle {
-    max-width: 600px;
     margin-bottom: 16px;
-}
-
-.main-section .main-title.-smwidth {
-    max-width: 550px;
 }

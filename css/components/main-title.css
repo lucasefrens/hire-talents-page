@@ -2,8 +2,21 @@
     font-size: 5rem;
     font-weight: 600;
     line-height: 6.5rem;
+    max-width: 800px;
     text-align: center;
     color: var(--primary-color);
+}
+
+.main-title.-smwidth {
+    max-width: 550px;
+}
+
+.main-title.-mdwidth {
+    max-width: 600px;
+}
+
+.main-title.-light {
+    color: var(--bg-color);
 }
 
 .main-title.-second {
