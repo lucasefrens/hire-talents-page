@@ -1,6 +1,0 @@
-.wrapper-slider {
-    display: grid;
-    grid-template-columns: 2fr 3fr 2fr;
-    gap: 24px;
-    margin-bottom: 60px;
-}
