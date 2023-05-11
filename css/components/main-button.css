@@ -6,8 +6,8 @@
     text-decoration: none;
     color: white;
     background-color: var(--primary-color);
-    padding: 1rem 2rem;
-    border-radius: 2rem;
+    padding: 1em 2em;
+    border-radius: 2em;
     border: 1px solid var(--primary-color);
 }
 
@@ -30,7 +30,7 @@
 }
 
 .main-button.-small {
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
 }
 
 .main-button.-bw500 {
