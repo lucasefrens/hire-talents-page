@@ -1,8 +1,17 @@
+.card-slider {
+    min-width: 300px;
+}
+
 .card-slider .row {
     display: flex;
     position: relative;
     width: 100%;
     gap: 1rem;
+}
+
+.card-slider .foto {
+    height: 75px;
+    width: 75px;
 }
 
 .card-slider .link {
@@ -17,6 +26,12 @@
     background-color: var(--primary-color);
     color: #FFF;
     text-decoration: none;
+}
+
+.card-slider .column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .card-slider .rating {

@@ -1,0 +1,27 @@
+.slider-button {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.slider-button .left,
+.slider-button .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-button .left {
+    color: var(--primary-color);
+    background-color: #FFF;
+}
+
+.slider-button .right {
+    color: #FFF;
+    background-color: var(--primary-color);
+}
