@@ -1,5 +1,5 @@
 .main-title {
-    font-size: 5rem;
+    font-size: 5em;
     font-weight: 600;
     line-height: 6.5rem;
     max-width: 800px;
@@ -26,4 +26,10 @@
 
 .main-title.-left {
     text-align: left;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        line-height: 3.5rem;
+    }
 }

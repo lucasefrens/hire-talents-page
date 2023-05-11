@@ -1,13 +1,19 @@
 @import "../variables.css";
 
 .main-action {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
-    line-height: 22.4px;
+    line-height: 1.4em;
     text-decoration: none;
     color: var(--text-color);
 }
 
 .main-action.-login {
-    margin-right: 32px;
+    margin-right: 2em;
+}
+
+@media (max-width: 1440px) {
+    .main-action.-login {
+        margin-right: 0.5em;
+    }
 }

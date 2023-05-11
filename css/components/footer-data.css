@@ -16,3 +16,14 @@
     text-decoration: none;
     color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+    .footer-data {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-data > div {
+        flex-direction: column;
+    } 
+}

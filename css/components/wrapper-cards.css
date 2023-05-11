@@ -6,3 +6,9 @@
     margin-bottom: 60px;
     width: 100%;
 }
+
+@media (max-width: 500px) {
+    .wrapper-cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}

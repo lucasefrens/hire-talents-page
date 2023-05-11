@@ -1,11 +1,17 @@
 @import "../variables.css";
 
 .card-title {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 600;
     color: var(--primary-color);
 }
 
 .card-title.-white {
     color: #FFF;
+}
+
+@media (max-width: 500px) {
+    .card-title {
+        font-size: 1em;
+    }
 }

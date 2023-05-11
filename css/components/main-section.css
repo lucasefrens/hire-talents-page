@@ -5,6 +5,7 @@
     border-top: 1px solid var(--stroke-color);
     padding: 8.12rem 6.25rem;
     background-color: var(--bg-color);
+    overflow: hidden;
 }
 
 .main-section.-bgblack {
@@ -19,4 +20,10 @@
 .main-section .main-title, 
 .main-section .main-subtitle {
     margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        padding: 8.12em 1em;
+    }
 }
