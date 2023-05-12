@@ -31,3 +31,7 @@
 .button-icon.-blue {
     color: blue;
 }
+
+.button-icon.-bgtransparent {
+    background-color: transparent;
+}
