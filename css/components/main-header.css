@@ -62,7 +62,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        padding: 10px;
+        padding: 30px;
         background-color: var(--bg-color);
         text-align: center;
     }
