@@ -16,6 +16,16 @@
     margin: 0 auto;
 }
 
+.container-row .chart {
+    margin: 30px auto;
+}
+
 .container-row .main-subtitle {
     margin-bottom: 24px;
+}
+
+@media (max-width:  1713px) {
+    .container-row .text {
+        align-items: center;
+    }
 }
