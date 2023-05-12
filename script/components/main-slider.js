@@ -5,23 +5,33 @@ const sliderElements = document.querySelector(".main-slider .elements");
 let porcentagem = 0;
 
 btnLeft.addEventListener("click", () => {
-
-    porcentagem -= 34;
-    
-    sliderElements.style.transform = `translateX(${porcentagem}%)`;
-
-    if (porcentagem <= -34) {
-        porcentagem = 34;  
-    }
+    switch (porcentagem) {
+        case 0: 
+            porcentagem += 34;
+            sliderElements.style.transform = `translateX(${porcentagem}%)`;
+            break;
+        case 34:
+            porcentagem = 0;
+            sliderElements.style.transform = `translateX(${porcentagem}%)`;
+            break
+        default:
+            porcentagem = 0;
+            sliderElements.style.transform = `translateX(${porcentagem}%)`;
+    } 
 })
 
-btnRight.addEventListener("click", () => {
-
-    porcentagem += 34;
-    
-    sliderElements.style.transform = `translateX(${porcentagem}%)`;
-
-    if (porcentagem >= 34) {
-        porcentagem = -34;  
-    }
+btnRight.addEventListener("click", () => {    
+    switch (porcentagem) {
+        case 0: 
+            porcentagem -= 34;
+            sliderElements.style.transform = `translateX(${porcentagem}%)`;
+            break;
+        case -34:
+            porcentagem = 0;
+            sliderElements.style.transform = `translateX(${porcentagem}%)`;
+            break
+        default:
+            porcentagem = 0;
+            sliderElements.style.transform = `translateX(${porcentagem}%)`;
+    } 
 })
