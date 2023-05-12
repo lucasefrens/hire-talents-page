@@ -37,6 +37,11 @@
     flex-direction: column;
     gap: 12px;
     width: 100%;
+    height: 100%;
+}
+
+.card-slider > .column {
+    justify-content: space-between;
 }
 
 .card-slider .rating {
@@ -50,4 +55,10 @@
 
 .card-slider.meio {
     width: 50%;
+}
+
+@media (max-width: 1220px) {
+    .card-slider {
+        font-size: 0.7em;
+    }
 }
