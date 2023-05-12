@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     column-gap: 158px;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .container-row .text {
@@ -13,7 +14,6 @@
     align-items: start;
     gap: 16px;
     max-width: 450px;
-    margin: 0 auto;
 }
 
 .container-row .chart {
@@ -22,10 +22,4 @@
 
 .container-row .main-subtitle {
     margin-bottom: 24px;
-}
-
-@media (max-width:  1713px) {
-    .container-row .text {
-        align-items: center;
-    }
 }

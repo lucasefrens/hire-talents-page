@@ -1,10 +1,13 @@
 .card-slider {
-    max-width: 705px;
+    width: 33%;
+    max-width: 66%;
     min-width: 300px;
+    padding: 24px;
 }
 
 .card-slider .row {
     display: flex;
+    align-items: center;
     position: relative;
     width: 100%;
     gap: 1rem;
@@ -22,7 +25,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
     background-color: var(--primary-color);
     color: #FFF;
@@ -33,6 +36,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 100%;
 }
 
 .card-slider .rating {
@@ -42,4 +46,8 @@
 .card-slider .info {
     display: flex;
     justify-content: space-between;
+}
+
+.card-slider.meio {
+    width: 50%;
 }
