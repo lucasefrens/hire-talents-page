@@ -1,0 +1,10 @@
+.icon-close {
+    display: none;
+    text-decoration: none;
+    color: var(--primary-color);
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}

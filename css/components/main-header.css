@@ -7,6 +7,7 @@
     padding: 2rem 6.25em;
     gap: 3.75em;
     background-color: #F9F8F5;
+    position: relative;
 }
 
 .main-header .menu {
@@ -50,7 +51,38 @@
         display: none;
     }
 
-    .main-header .button-menu {
+    .main-header > .menu.active {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        background-color: var(--bg-color);
+        text-align: center;
+    }
+
+    .main-header > .menu.active .icon-close {
+        display: block;
+    }
+
+    .main-header > .menu.active .actions {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main-header > .menu.active .right {
+        flex-direction: column;
+        gap: 30px;
+        order: -1;
+        width: 100%;
+    }
+
+    .main-header > .menu.active .headerlogin {
     }
 }

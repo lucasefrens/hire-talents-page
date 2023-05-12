@@ -18,3 +18,13 @@
 .main-searchbox .icon {
     width: 10%;
 }
+
+@media (max-width: 1024px) {
+
+    .main-searchbox {
+        display: flex;
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}

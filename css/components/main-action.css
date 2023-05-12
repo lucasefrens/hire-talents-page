@@ -17,3 +17,9 @@
         margin-right: 0.5em;
     }
 }
+
+@media (max-width: 1024px) {
+    .main-action {
+        font-size: 1.3em;
+    }
+}
